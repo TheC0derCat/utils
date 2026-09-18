@@ -6,3 +6,6 @@ pwd.out: pwd.c
 
 ls.out: ls.c
 	$(CC) $(CFLAGS) ls.c -o ls.out
+
+cat.out: cat.c
+	$(CC) $(CFLAGS) cat.c -o cat.out
